@@ -1,0 +1,51 @@
+# ----------------------
+# Node.js / Backend
+# ----------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+coverage/
+.tmp/
+
+# ----------------------
+# Frontend (React / Vite)
+# ----------------------
+# Vite cache
+.vite/
+
+# Production build
+dist/
+
+# Testing
+coverage/
+*.lcov
+
+# ----------------------
+# System files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Editor / IDE
+# ----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
