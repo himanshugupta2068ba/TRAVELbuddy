@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import SetupExample from './setupexample.jsx'
 
 function App() {
 
   return (
     <>
-      <h1>Hello Vite + React!</h1>
+      <SetupExample />
     </>
   )
 }
