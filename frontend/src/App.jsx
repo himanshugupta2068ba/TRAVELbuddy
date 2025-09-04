@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import SetupExample from './setupexample.jsx'
 
 function App() {
 
   return (
     <>
-      <h1>first change by addi</h1>
+     <SetupExample />
     </>
   )
 }
